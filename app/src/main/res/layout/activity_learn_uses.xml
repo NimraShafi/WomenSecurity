@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LearnUses">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/back_to_home"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:src="@drawable/back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3.8"
+                android:text="How to Use"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:gravity="center|start"
+                android:paddingStart="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spalsh_design"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_weight="4">
+
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/shake"
+                   android:layout_gravity="center"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Shake Alert"
+                       android:textColor="@color/first"
+                       android:textStyle="bold"
+                       android:layout_marginTop="10dp"
+                       android:textSize="18sp"
+                       android:gravity="center|start"
+                       android:paddingStart="10dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Open App\nEnable internet \nEnable GPS Location\nShake your phone up and down \nSms sent to your register contacts"
+                       android:textColor="@color/first"
+                       android:textStyle="bold"
+                       android:layout_marginTop="10dp"
+                       android:textSize="16sp"
+                       android:gravity="center|start"
+                       android:paddingStart="10dp"/>
+
+               </LinearLayout>
+
+
+           </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spalsh_design"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:weightSum="4"
+            android:orientation="vertical">
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="4">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1.6"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="SOS Alert"
+                       android:textColor="@color/first"
+                       android:textStyle="bold"
+                       android:layout_marginTop="10dp"
+                       android:textSize="18sp"
+                       android:gravity="center|start"
+                       android:paddingStart="10dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Open App\nEnable internet \nEnable GPS Location\nClick On SOS Button\nSms sent to your register contacts"
+                       android:textColor="@color/first"
+                       android:textStyle="bold"
+                       android:layout_marginTop="10dp"
+                       android:textSize="16sp"
+                       android:gravity="center|start"
+                       android:paddingStart="10dp"/>
+
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/sos"
+                   android:layout_weight="2"
+                   android:layout_gravity="center"/>
+
+
+           </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spalsh_design"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="4">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power"
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Power or Volume Alert"
+                        android:textColor="@color/first"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:textSize="18sp"
+                        android:gravity="center|start"
+                        android:paddingStart="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Open App\nEnable internet \nEnable GPS Location\nClick Power Button\nSms sent to your register contacts"
+                        android:textColor="@color/first"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp"
+                        android:gravity="center|start"
+                        android:paddingStart="10dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/spalsh_design"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="3.8"
+                    android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Call and SMS Use Sim1 By Default \nCharges will apply on SMS and Call"
+                        android:textColor="@color/first"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16sp"
+                        android:gravity="center|start"
+                        android:paddingStart="10dp"/>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/money"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bottom_style"
+    android:paddingBottom="20sp"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="20sp"
+        android:textColor="@color/first"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="3dp"
+            android:background="@color/second"/>
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/first"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginTop="2dp"
+        android:background="#F8F8F8"
+        android:layout_weight="4">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/add_num"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Number"
+            android:textSize="18sp"
+            android:gravity="center|start"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/second"
+            android:paddingStart="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:background="#F8F8F8"
+        android:padding="15dp"
+        android:layout_weight="4">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/share"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share App"
+            android:textSize="18sp"
+            android:gravity="center|start"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/second"
+            android:paddingStart="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/logoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:background="#F8F8F8"
+        android:padding="15dp"
+        android:layout_weight="4">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:rotation="180"
+            android:src="@drawable/logout"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="18sp"
+            android:gravity="center|start"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/second"
+            android:paddingStart="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/del"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:background="#F8F8F8"
+        android:padding="15dp"
+        android:layout_weight="4">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/del"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Account"
+            android:textSize="18sp"
+            android:gravity="center|start"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/second"
+            android:paddingStart="20dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
